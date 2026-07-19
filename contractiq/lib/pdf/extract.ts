@@ -1,33 +1,31 @@
 import 'server-only'
-import { PDFParse } from 'pdf-parse'
+import { extractText, getDocumentProxy } from 'unpdf'
 import { scannedPdf } from '@/lib/errors'
 
 // Extracts text from a text-layer PDF, inserting 1-indexed [PAGE N] markers
-// before each page. Throws ScannedPdfError if the doc has < 100 words.
+// before each page. Uses unpdf (serverless-friendly pdfjs build) so it runs
+// on Vercel/serverless without native bundling issues.
+// Throws ScannedPdfError if the doc has < 100 words.
 export async function extractPdfText(data: Uint8Array): Promise<{ text: string; pageCount: number }> {
-  const parser = new PDFParse({ data })
-  try {
-    const result = await parser.getText()
-    const pages = result.pages ?? []
+  const pdf = await getDocumentProxy(data)
+  const { totalPages, text } = await extractText(pdf, { mergePages: false })
+  const pages = Array.isArray(text) ? text : [text]
 
-    const text = pages.length
-      ? pages.map((p, i) => `[PAGE ${i + 1}]\n${(p.text ?? '').trim()}`).join('\n\n')
-      : `[PAGE 1]\n${(result.text ?? '').trim()}`
+  const fullText = pages.length
+    ? pages.map((t, i) => `[PAGE ${i + 1}]\n${(t ?? '').trim()}`).join('\n\n')
+    : `[PAGE 1]\n${String(text ?? '').trim()}`
 
-    const pageCount = result.total || pages.length || 1
+  const pageCount = totalPages || pages.length || 1
 
-    const wordCount = text
-      .replace(/\[PAGE \d+\]/g, ' ')
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean).length
+  const wordCount = fullText
+    .replace(/\[PAGE \d+\]/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean).length
 
-    if (wordCount < 100) throw scannedPdf()
+  if (wordCount < 100) throw scannedPdf()
 
-    return { text, pageCount }
-  } finally {
-    await parser.destroy()
-  }
+  return { text: fullText, pageCount }
 }
 
 // Rough token estimate (~4 chars/token) — used to enforce the context limit.

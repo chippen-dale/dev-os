@@ -10,11 +10,9 @@ const securityHeaders = [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // pdf-parse pulls in pdfjs-dist, which breaks when webpack-bundled in the
-  // server runtime. Externalize so it is required at runtime from node_modules.
-  experimental: {
-    serverComponentsExternalPackages: ['pdf-parse', 'pdfjs-dist'],
-  },
+  // PDF text extraction uses unpdf (bundles cleanly for serverless). pdfjs-dist
+  // is only used client-side by the PDF viewer (dynamic, ssr:false), so no
+  // server-side externalization is needed.
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },
