@@ -1,0 +1,27 @@
+import { createServerClient } from '@supabase/ssr'
+import { cookies } from 'next/headers'
+
+// Request-scoped server client — enforces RLS as the signed-in user.
+// Use in Route Handlers and Server Components.
+export function createSupabaseServerClient() {
+  const cookieStore = cookies()
+  return createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        getAll() {
+          return cookieStore.getAll()
+        },
+        setAll(cookiesToSet) {
+          try {
+            cookiesToSet.forEach(({ name, value, options }) => cookieStore.set(name, value, options))
+          } catch {
+            // Called from a Server Component (cookies are read-only there).
+            // Session refresh is handled by middleware, so this is safe to ignore.
+          }
+        },
+      },
+    },
+  )
+}

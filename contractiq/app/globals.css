@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * ContractIQ — allNeurons design system (docs/design.md)
+ * Flat depth: no shadows / no gradients. Grey is default; blue = brand.
+ * CSS vars below back the marketing landing page's inline token references.
+ */
+:root {
+  --blue-500: #115acb;
+  --blue-600: #0044ae;
+  --blue-50: #e7effc;
+  --gray-900: #070a0e;
+  --gray-500: #4a4c4f;
+  --gray-300: #8f9193;
+  --gray-100: #dadadb;
+  --gray-50: #f0f0f1;
+  --gray-25: #fafafa;
+  --white: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-25 text-ink font-sans antialiased;
+  }
+  /* Visible focus for keyboard users — WCAG 2.1 AA */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand ring-offset-1 ring-offset-gray-25;
+  }
+}
+
+@layer components {
+  /* Landing-page button utilities (design tokens via @apply) */
+  .btn-primary {
+    @apply inline-block rounded-btn bg-brand px-6 py-3 text-body font-semibold text-white transition-colors duration-100 ease-out hover:bg-brand-600;
+  }
+  .btn-ghost {
+    @apply inline-block rounded-btn border border-gray-100 bg-white px-6 py-3 text-body font-semibold text-brand transition-colors duration-100 ease-out hover:border-brand;
+  }
+}

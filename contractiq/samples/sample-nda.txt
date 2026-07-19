@@ -1,0 +1,84 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement (this "Agreement") is entered into and made
+effective as of March 14, 2026 (the "Effective Date"), by and between Northwind
+Analytics, Inc., a Delaware corporation with offices at 500 Harbor Street, San
+Francisco, California ("Northwind"), and Brightpath Solutions LLC, a California
+limited liability company with offices at 1201 Union Avenue, San Jose, California
+("Brightpath"). Northwind and Brightpath are each a "Party" and together the
+"Parties."
+
+1. PURPOSE
+The Parties wish to explore a potential business relationship concerning a data
+analytics integration (the "Purpose"), and in connection with the Purpose each
+Party may disclose to the other certain confidential and proprietary information.
+
+2. CONFIDENTIAL INFORMATION
+"Confidential Information" means any non-public information disclosed by one Party
+(the "Disclosing Party") to the other (the "Receiving Party"), whether orally, in
+writing, or in electronic form, that is designated as confidential or that
+reasonably should be understood to be confidential given the nature of the
+information and the circumstances of disclosure, including but not limited to
+business plans, customer lists, pricing, source code, and technical designs.
+
+3. CONFIDENTIALITY OBLIGATIONS
+The Receiving Party shall hold the Disclosing Party's Confidential Information in
+strict confidence, shall not disclose it to any third party, and shall use it
+solely for the Purpose. The Receiving Party shall protect such Confidential
+Information using at least the same degree of care it uses to protect its own
+confidential information, and in no event less than a reasonable degree of care.
+
+4. PERMITTED DISCLOSURES
+The Receiving Party may disclose Confidential Information to its employees,
+officers, and professional advisors who have a need to know such information for
+the Purpose and who are bound by confidentiality obligations at least as
+protective as those in this Agreement. The Receiving Party may also disclose
+Confidential Information to the extent required by law or valid court order,
+provided that it gives the Disclosing Party prompt written notice and cooperates
+in any effort to obtain protective treatment.
+
+5. TERM AND DURATION
+This Agreement shall commence on the Effective Date and continue for a period of
+two (2) years, unless earlier terminated by either Party upon thirty (30) days'
+written notice. The confidentiality obligations set forth herein shall survive
+termination and remain in effect for a period of five (5) years from the date of
+disclosure.
+
+6. INTELLECTUAL PROPERTY OWNERSHIP
+All Confidential Information remains the sole property of the Disclosing Party.
+Nothing in this Agreement grants the Receiving Party any license or right, by
+implication or otherwise, to any patents, copyrights, trademarks, or trade
+secrets of the Disclosing Party. Each Party retains all right, title, and
+interest in and to its own intellectual property.
+
+7. NON-SOLICITATION
+During the term of this Agreement and for a period of twelve (12) months
+thereafter, neither Party shall directly solicit for employment any employee of
+the other Party with whom it had contact in connection with the Purpose, without
+the prior written consent of the other Party.
+
+8. BREACH AND REMEDIES
+The Parties acknowledge that any breach of this Agreement may cause irreparable
+harm for which monetary damages would be an inadequate remedy. Accordingly, the
+non-breaching Party shall be entitled to seek injunctive relief in addition to
+any other remedies available at law or in equity.
+
+9. GOVERNING LAW AND JURISDICTION
+This Agreement shall be governed by and construed in accordance with the laws of
+the State of Delaware, without regard to its conflict of laws principles. The
+Parties consent to the exclusive jurisdiction of the state and federal courts
+located in the State of Delaware for the resolution of any dispute arising out of
+or relating to this Agreement.
+
+10. ENTIRE AGREEMENT
+This Agreement constitutes the entire agreement between the Parties with respect
+to its subject matter and supersedes all prior or contemporaneous understandings.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective
+Date.
+
+NORTHWIND ANALYTICS, INC.                 BRIGHTPATH SOLUTIONS LLC
+
+By: _______________________               By: _______________________
+Name: Dana Whitfield                      Name: Marcus Lee
+Title: Chief Executive Officer            Title: Managing Partner

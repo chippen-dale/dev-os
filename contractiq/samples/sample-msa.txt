@@ -1,0 +1,91 @@
+MASTER SERVICE AGREEMENT
+
+This Master Service Agreement (this "Agreement") is entered into and made
+effective as of April 1, 2026 (the "Effective Date"), by and between Cedar Peak
+Technologies, Inc., a Delaware corporation with offices at 88 Market Plaza,
+Austin, Texas ("Provider"), and Meridian Retail Group, LLC, a New York limited
+liability company with offices at 400 Lexington Avenue, New York, New York
+("Client"). Provider and Client are each a "Party" and together the "Parties."
+
+1. SERVICE SCOPE
+Provider shall provide to Client software development, cloud infrastructure
+management, and technical support services (the "Services") as described in one
+or more statements of work executed by the Parties (each, a "SOW"). Each SOW
+shall reference this Agreement and set forth the specific deliverables, timelines,
+and fees for the applicable engagement.
+
+2. PAYMENT TERMS
+In consideration of the Services, Client shall pay Provider the fees set forth in
+each SOW. Unless otherwise stated in a SOW, all fees are quoted in U.S. dollars
+and are due within thirty (30) days of the date of the applicable invoice (net
+30). Fees are exclusive of applicable taxes, which are the responsibility of the
+Client.
+
+3. INVOICE SCHEDULE
+Provider shall invoice Client monthly in arrears for Services rendered during the
+preceding calendar month. Each invoice shall itemize the Services performed and
+the corresponding fees.
+
+4. LATE PAYMENT PENALTY
+Any undisputed amount not paid when due shall accrue interest at a rate of one and
+one-half percent (1.5%) per month, or the maximum rate permitted by applicable
+law, whichever is lower, from the due date until paid in full.
+
+5. LIABILITY CAP
+Except for liabilities arising from a Party's gross negligence, willful
+misconduct, or breach of its confidentiality obligations, each Party's total
+aggregate liability under this Agreement shall not exceed the total fees paid by
+Client to Provider under the applicable SOW during the twelve (12) months
+preceding the event giving rise to the claim. In no event shall either Party be
+liable for any indirect, incidental, or consequential damages.
+
+6. INDEMNIFICATION
+Provider shall indemnify, defend, and hold harmless Client from and against any
+third-party claims arising out of Provider's infringement of a third party's
+intellectual property rights in the course of providing the Services. Client
+shall indemnify Provider against claims arising out of Client's misuse of the
+deliverables or Client-provided materials.
+
+7. INTELLECTUAL PROPERTY OWNERSHIP
+Upon full payment of the applicable fees, Provider assigns to Client all right,
+title, and interest in the custom deliverables created specifically for Client
+under a SOW. Provider retains ownership of its pre-existing tools, libraries, and
+know-how, and grants Client a non-exclusive license to use such materials solely
+as incorporated into the deliverables.
+
+8. TERMINATION CLAUSE
+Either Party may terminate this Agreement or any SOW for convenience upon sixty
+(60) days' prior written notice. Either Party may terminate immediately for cause
+if the other Party materially breaches this Agreement and fails to cure such
+breach within thirty (30) days after receiving written notice of the breach.
+
+9. NOTICE PERIOD
+All notices under this Agreement shall be in writing and delivered to the address
+set forth above, and shall be deemed given upon receipt. Either Party may change
+its notice address by providing at least ten (10) days' prior written notice to
+the other Party.
+
+10. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of
+the State of New York, without regard to its conflict of laws principles.
+
+11. DISPUTE RESOLUTION
+The Parties shall first attempt to resolve any dispute through good-faith
+negotiation. Any dispute not resolved within thirty (30) days shall be finally
+settled by binding arbitration administered by the American Arbitration
+Association in New York, New York, in accordance with its Commercial Arbitration
+Rules.
+
+12. ENTIRE AGREEMENT
+This Agreement, together with all SOWs, constitutes the entire agreement between
+the Parties and supersedes all prior understandings with respect to its subject
+matter.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective
+Date.
+
+CEDAR PEAK TECHNOLOGIES, INC.              MERIDIAN RETAIL GROUP, LLC
+
+By: _______________________                By: _______________________
+Name: Priya Raman                          Name: Thomas Alvarez
+Title: Chief Operating Officer             Title: VP, Procurement
