@@ -1,0 +1,9 @@
+# Netlify build config (repo root). The Next.js app lives in the contractiq/
+# subfolder, so `base` points Netlify there; Netlify's Next.js runtime
+# auto-detects the App Router and turns route handlers into Netlify Functions.
+[build]
+  base = "contractiq"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
