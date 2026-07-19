@@ -22,9 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# generated at predev/prebuild from node_modules (pdfjs worker)
-/public/pdf.worker.min.mjs
-
 # local env files (secrets) — never commit
 .env
 .env*.local
